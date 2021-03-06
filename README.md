@@ -1,4 +1,5 @@
-﻿<style>
+(setq markdown-xhtml-header-content
+      "<style type='text/css'>
 *{
     text-align: justify;
 }
@@ -24,7 +25,9 @@
             margin-top: 1rem;
             margin-bottom: 1rem;
         }
-</style>
+</style>")
+
+
 # <b>SYMULATOR MRÓWKI LANGTONA</b>
 ##### Autor: ŁUKASZ STANISZEWSKI
 <img class="centerimage" src="https://user-images.githubusercontent.com/59453698/110209633-c37a6900-7e8d-11eb-9539-5c0467d69758.png" width="80%" align="center"></img>
