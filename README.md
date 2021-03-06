@@ -1,9 +1,6 @@
-<link rel="stylesheet" type="text/css" media="all" href="markdown-styles.css" />
-
-
 # <b>SYMULATOR MRÓWKI LANGTONA</b>
 ##### Autor: ŁUKASZ STANISZEWSKI
-<img class="centerimage" src="https://user-images.githubusercontent.com/59453698/110209633-c37a6900-7e8d-11eb-9539-5c0467d69758.png" width="80%" align="center"></img>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/59453698/110209633-c37a6900-7e8d-11eb-9539-5c0467d69758.png" width="80%" align="center"></img>
 
 ## <u>SPIS TREŚCI:</u>
 - <b>ROZDZIAŁ I. OPIS PROJEKTU</b>
@@ -41,9 +38,9 @@
 
 Projekt polega na implementacji automatu komórkowego, tzw. Mrówki Langtona.
 
-<img class="centerimage" src="https://user-images.githubusercontent.com/59453698/110209525-5f57a500-7e8d-11eb-9ad7-afc07e8d4346.jpg" width="40%">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/59453698/110209525-5f57a500-7e8d-11eb-9ad7-afc07e8d4346.jpg" width="40%">
 
-<p class="signimage">Rys 1 - trasa mrówki po wykonaniu 7000 kroków</p>
+<p style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">Rys 1 - trasa mrówki po wykonaniu 7000 kroków</p>
 
 ### <i>ZASADY DZIAŁANIA</i>
 
@@ -82,9 +79,9 @@ Projekt polega na implementacji automatu komórkowego, tzw. Mrówki Langtona.
 6. CZĘŚĆ INTERFEJSOWĄ – folder gui_files, plik LangtonGui.py
 7. FOLDER WYNIKOWY – folder Steps
 
-<img class="centerimage" src="https://user-images.githubusercontent.com/59453698/110209533-6bdbfd80-7e8d-11eb-8fa9-481294b118eb.png" width="70%"></img>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/59453698/110209533-6bdbfd80-7e8d-11eb-8fa9-481294b118eb.png" width="70%"></img>
 
-<div class="signimage">Rys 2 - końcowy wygląd folderu z projektem </div>
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">Rys 2 - końcowy wygląd folderu z projektem </div>
 
 ### <i>SCHEMAT DZIAŁANIA</i>
 
@@ -109,8 +106,8 @@ Użyte w projekcie biblioteki:
 
 ### <i>STRUKTURA MODUŁÓW I KLAS</i>
 
-<img class="centerimage" src="https://user-images.githubusercontent.com/59453698/110209535-6ed6ee00-7e8d-11eb-9822-0b7bdd8600ae.png" width="90%"></img>
-<div class="signimage">Rys 3 - struktura klas </div>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/59453698/110209535-6ed6ee00-7e8d-11eb-9822-0b7bdd8600ae.png" width="90%"></img>
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">Rys 3 - struktura klas </div>
 
 ### <i>NAJISTOTNIEJSZE FUNKCJE</i>
 
@@ -150,8 +147,8 @@ rozdziale dokumentacji. W międzyczasie każdy stan planszy jest przerabiany za 
 funkcji na czarno-biały obrazek, który jest zapisywany do folderu Steps z odpowiednia nazwa w
 postaci step_[nr kroku]. Po wykonaniu pętli, następuje koniec programu.
 
-<img class="centerimage" src="https://user-images.githubusercontent.com/59453698/110209537-71d1de80-7e8d-11eb-9ab9-3b9084dd6e73.png" width="50%"></img>
-<div class="signimage"> Rys 4 – fragment przykładowego wyglądu folderu Steps po zakończonym
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/59453698/110209537-71d1de80-7e8d-11eb-9ab9-3b9084dd6e73.png" width="50%"></img>
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;"> Rys 4 – fragment przykładowego wyglądu folderu Steps po zakończonym
 programie </div>
 
 ## <b><u>ROZDZIAŁ III. INSTRUKCJA UŻYTKOWNIKA</u></b>
@@ -174,9 +171,9 @@ ImageInput.start(2)   # open in console
 Następnie po zapisaniu pliku run.py możemy go uruchomić. W konsoli powita nas ekran taki
 jak na zdjęciu.
 
-<img class="centerimage" src="https://user-images.githubusercontent.com/59453698/110209571-97f77e80-7e8d-11eb-815b-80e565edfa45.png" width="50%"></img>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/59453698/110209571-97f77e80-7e8d-11eb-815b-80e565edfa45.png" width="50%"></img>
 
-<div class="signimage">
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
 Rys 5 - ekran startowy w wersji konsolowej
 </div>
 
@@ -184,8 +181,8 @@ Rys 5 - ekran startowy w wersji konsolowej
 
 Po uruchomieniu pliku run.py z parametrem 1, pojawi nam się następujące okno.
 
-<img class="centerimage" src="https://user-images.githubusercontent.com/59453698/110209575-9a59d880-7e8d-11eb-834a-a0ba99e8e207.png" width="50%"></img> 
-<div class="signimage">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/59453698/110209575-9a59d880-7e8d-11eb-834a-a0ba99e8e207.png" width="50%"></img> 
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
 Rys 6 - ekran startowy w wersji gui
 </div>
 
@@ -198,12 +195,12 @@ wpisać odpowiednie dane, tak jak na obrazkach. Dane mają też swoje ograniczen
 3) Liczba kroków **[steps]** powinna być liczbą z zakresu **1-30000**
 
 
-<div class="signimage">
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
 <img style="vertical-align: middle;" src="https://user-images.githubusercontent.com/59453698/110209577-9cbc3280-7e8d-11eb-8818-e7815c66f115.png" width="40%"></img> 
 <img style="vertical-align: middle;" src="https://user-images.githubusercontent.com/59453698/110209580-9e85f600-7e8d-11eb-8e40-2e2d3ed284c9.png" width="40%">
 </div>
 
-<div class="signimage">
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
 Rys. 7.1, 7.2 - ekran 1 opcji w gui oraz w konsoli
 </div>
 
@@ -214,11 +211,11 @@ umieścić w folderze **load**, specjalnie do tego przeznaczonym. Nie ma wymogó
 obrazku – zostanie on przekonwertowany na czarno-biały obiekt. Istotny jest jednak rozmiar obrazka.
 Ładowany obrazek nie może mieć szerokości lub wysokości większej niż **300 pixeli**.
 
-<div class="signimage">
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
 </img> <img style="vertical-align: middle;" src="https://user-images.githubusercontent.com/59453698/110209584-a0e85000-7e8d-11eb-94f2-fc400b69869c.png" width="45%"></img> <img style="vertical-align: middle;" src="https://user-images.githubusercontent.com/59453698/110209589-a2b21380-7e8d-11eb-8d7e-e7018ce7d1f1.png" width="45%"></img>
 </div>
 
-<div class="signimage">
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
 Rys. 8.1, 8.2 - ekran 2 opcji w gui oraz w konsoli
 </div>
 
@@ -228,9 +225,9 @@ Trzecią z możliwych opcji do wybrania jest **tworzenie własnego pliku z prawd
 wystąpienia czarnego pixela na nim**. Poza atrybutami pojawiającymi się w opcji 1, występuje tu również
 atrybut **probability** – wymaga podania **liczby rzeczywistej z zakresu (0, 1)**.
 
-<div class="signimage">
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
 </img> <img style="vertical-align: middle;" src="https://user-images.githubusercontent.com/59453698/110209592-a3e34080-7e8d-11eb-8be3-1502de7f6826.png" width="45%"></img> <img style="vertical-align: middle;" src="https://user-images.githubusercontent.com/59453698/110209595-a5ad0400-7e8d-11eb-92ce-29b83dc43d70.png" width="45%"></img></div>
-<div class="signimage">
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
 Rys. 9.1, 9.2 - ekran 3 opcji w gui oraz w konsoli
 </div>
 
@@ -247,12 +244,12 @@ Projekt ten zawiera liczne testy, sprawdzające prawidłowe działanie zawartych
 metod, funkcji czy atrybutów. Zaczynając od sprawdzenia pozycji mrówki na planszy aż po całe jej
 załadowanie z pliku.
 
-<div class="signimage" style="margin-left:10%;">
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;" style="margin-left:10%;">
 </img> <img style="vertical-align: middle;" src="https://user-images.githubusercontent.com/59453698/110211777-75b72e00-7e98-11eb-8c9f-55c86802ec1a.png" width="25%"></img> 
 <img style="vertical-align: middle; margin-left: 20%" src="https://user-images.githubusercontent.com/59453698/110209600-a9d92180-7e8d-11eb-9909-50ed2ffac101.png" width="25%"></img>
 </div>
 
-<div class="signimage" style="font-size: 80%">
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;" style="font-size: 80%">
 <span style="margin-right: 5%">Rys. 10 - wszystkie przeprowadzone
 testy (działają!)</span>
 <span style="margin-left: 5%">Rys 11 - pliki z testami</span>
@@ -264,9 +261,9 @@ Istotną właściwością mrówki Langtona jest trasa, jaką wykonuje ona po zro
 kroków. Tworzy ona wtedy charakterystyczny kształt nazwany **„autostradą”**, nie inaczej jest w tym
 projekcie.
 
-<img class="centerimage" src="https://user-images.githubusercontent.com/59453698/110209614-b198c600-7e8d-11eb-89f2-b2cb015d74c8.png" width="40%"></img> 
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/59453698/110209614-b198c600-7e8d-11eb-89f2-b2cb015d74c8.png" width="40%"></img> 
 
-<div class="signimage">
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
 Rys 12 - droga wykonana
 przez mrówkę po 11000
 krokach
@@ -279,41 +276,41 @@ wymiarach 5x3), w której mogłem przewidzieć pierwsze 4 kroki mrówki. Następ
 względu na mały obszar wybiera już losowo (stąd dalsze testy nie mają sensu – nie da się przewidzieć
 następnego kroku).
 
-<div class="signimage">
-        <div class="signimage" style="width: 60%; float:left;">
+<div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
+        <div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle; width: 60%; float:left;">
             <img src="https://user-images.githubusercontent.com/59453698/110209617-b3fb2000-7e8d-11eb-9d60-61dc4988e592.png"></img>
-            <div class="signimage">
+            <div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
                 Rys 13. - test symulacji
             </div>
         </div>
         <div>
-            <div class="signimage">
+            <div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
                 <img src="https://user-images.githubusercontent.com/59453698/110209620-b5c4e380-7e8d-11eb-8e86-07736865d316.png" width="8%"></img>
-                <div class="signimage2">
+                <div style="font-size: 10px; font-style: italic; margin-left: auto; margin-right: auto; text-aling: center; vertical-align: middle; margin-top: 1rem; margin-bottom: 1rem;">
                     Rys 14.1 - załadowany obrazek jako tablica 0-1
                 </div>
             </div>
-            <div class="signimage">
+            <div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
                 <img src="https://user-images.githubusercontent.com/59453698/110209622-b78ea700-7e8d-11eb-9fda-556ce8b70279.png" width="8%"></img>
-                <div class="signimage2">
+                <div style="font-size: 10px; font-style: italic; margin-left: auto; margin-right: auto; text-aling: center; vertical-align: middle; margin-top: 1rem; margin-bottom: 1rem;">
                     Rys 14.2 - zmiana pozycji środkowego pixela
                 </div>
             </div>
-            <div class="signimage">
+            <div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
                 <img src="https://user-images.githubusercontent.com/59453698/110209625-b9586a80-7e8d-11eb-95f3-66c2ac945072.png" width="8%"></img>
-                <div class="signimage2">
+                <div style="font-size: 10px; font-style: italic; margin-left: auto; margin-right: auto; text-aling: center; vertical-align: middle; margin-top: 1rem; margin-bottom: 1rem;">
                     Rys 14.3 - mrówka skręca w lewo, idzie na pixel w 3 kolumnie i 2 wierszu
                 </div>
             </div>
-            <div class="signimage">
+            <div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
                 <img src="https://user-images.githubusercontent.com/59453698/110209626-bb222e00-7e8d-11eb-82b0-c403bcdfb25b.png" width="8%"></img>
-                <div class="signimage2">
+                <div style="font-size: 10px; font-style: italic; margin-left: auto; margin-right: auto; text-aling: center; vertical-align: middle; margin-top: 1rem; margin-bottom: 1rem;">
                     Rys 14.4 - mrówka skręca w lewo, idzie na pixel w 3 kolumnie i 3 wierszu
                 </div>
             </div>
-            <div class="signimage">
+            <div style="margin-top: 24px; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
                 <img src="https://user-images.githubusercontent.com/59453698/110209628-bcebf180-7e8d-11eb-8f11-75c89a999327.png" width="8%"></img>
-                <div class="signimage2">
+                <div style="font-size: 10px; font-style: italic; margin-left: auto; margin-right: auto; text-aling: center; vertical-align: middle; margin-top: 1rem; margin-bottom: 1rem;">
                     Rys 14.5 - mrówka skręca w prawo, idzie na pixel w 2 kolumnie i 3 rzędzie
                 </div>
             </div>
