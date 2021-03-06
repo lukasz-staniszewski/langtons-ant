@@ -1,31 +1,4 @@
-(setq markdown-xhtml-header-content
-      "<style type='text/css'>
-*{
-    text-align: justify;
-}
-.centerimage{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.signimage{
-    margin-top: 24px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    vertical-align: middle;
-}
-.signimage2{
-            font-size: 10px;
-            font-style: italic;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            vertical-align: middle;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
-</style>")
+<link rel="stylesheet" type="text/css" media="all" href="markdown_styles.css" />
 
 
 # <b>SYMULATOR MRÓWKI LANGTONA</b>
