@@ -1,4 +1,3 @@
-﻿
 # <b>SYMULATOR MRÓWKI LANGTONA</b>
 ##### Autor: ŁUKASZ STANISZEWSKI
 
@@ -40,9 +39,11 @@
 
 Projekt polega na implementacji automatu komórkowego, tzw. Mrówki Langtona.
 
+
 <img src="https://user-images.githubusercontent.com/59453698/110209525-5f57a500-7e8d-11eb-9ad7-afc07e8d4346.jpg" width="40%">
 
 <p style="font-size: 12px;">Rys 1 - trasa mrówki po wykonaniu 7000 kroków</p>
+
 
 ### <i>ZASADY DZIAŁANIA</i>
 
@@ -81,9 +82,11 @@ Projekt polega na implementacji automatu komórkowego, tzw. Mrówki Langtona.
 6. CZĘŚĆ INTERFEJSOWĄ – folder gui_files, plik LangtonGui.py
 7. FOLDER WYNIKOWY – folder Steps
 
+
 <img src="https://user-images.githubusercontent.com/59453698/110209533-6bdbfd80-7e8d-11eb-8fa9-481294b118eb.png" width="60%"></img>
 
 <div style="font-size: 12px;">Rys 2 - końcowy wygląd folderu z projektem </div>
+
 
 ### <i>SCHEMAT DZIAŁANIA</i>
 
@@ -151,7 +154,6 @@ postaci step_[nr kroku]. Po wykonaniu pętli, następuje koniec programu.
 
 <img src="https://user-images.githubusercontent.com/59453698/110209537-71d1de80-7e8d-11eb-9ab9-3b9084dd6e73.png" width="40%"></img>
 <div style="font-size: 12px;"> Rys 4 – fragment przykładowego wyglądu folderu Steps po zakończonym
-programie </div>
 
 ## <b><u>ROZDZIAŁ III. INSTRUKCJA UŻYTKOWNIKA</u></b>
 
@@ -196,8 +198,6 @@ wpisać odpowiednie dane, tak jak na obrazkach. Dane mają też swoje ograniczen
 2) Szerokość **[width]** obrazka powinna być liczbą całkowitą z zakresu **0-300**
 3) Liczba kroków **[steps]** powinna być liczbą z zakresu **1-30000**
 
-
-
 <img src="https://user-images.githubusercontent.com/59453698/110209577-9cbc3280-7e8d-11eb-8818-e7815c66f115.png" width="50%"></img> 
 <p style="font-size: 12px;">Rys. 7.1 - ekran 1 opcji w gui </p>
 <img  src="https://user-images.githubusercontent.com/59453698/110209580-9e85f600-7e8d-11eb-8e40-2e2d3ed284c9.png" width="50%">
@@ -214,7 +214,6 @@ obrazku – zostanie on przekonwertowany na czarno-biały obiekt. Istotny jest j
 <p style="font-size: 12px;">Rys. 8.1 - ekran 2 opcji w gui </p>
 <img src="https://user-images.githubusercontent.com/59453698/110209589-a2b21380-7e8d-11eb-8d7e-e7018ce7d1f1.png" width="45%"></img>
 <p style="font-size: 12px;">Rys. 8.2 - ekran 2 opcji w konsoli </p>
-
 
 ### <i>OPCJA TWORZENIA PLIKU Z PRAWDOPODOBIEŃSTWEM</i>
 
@@ -246,7 +245,6 @@ załadowanie z pliku.
 </div>
 <p style="font-size: 12px;">Rys. 11 - pliki z testami</p>
 
-
 ### <i>WAŻNY PRZYKŁAD</i>
 
 Istotną właściwością mrówki Langtona jest trasa, jaką wykonuje ona po zrobieniu **10000**
@@ -254,7 +252,6 @@ kroków. Tworzy ona wtedy charakterystyczny kształt nazwany **„autostradą”
 projekcie.
 
 <img src="https://user-images.githubusercontent.com/59453698/110209614-b198c600-7e8d-11eb-89f2-b2cb015d74c8.png" width="30%"></img> 
-
 <p style="font-size: 12px;">
 Rys 12 - droga wykonana
 przez mrówkę po 11000
@@ -298,7 +295,6 @@ następnego kroku).
     Rys 14.5 - mrówka skręca w prawo, idzie na pixel w 2 kolumnie i 3 rzędzie
 </p>
            
-
 Podobne symulacje przeprowadziłem również dla ładowanego obrazka 5x5 (4 kroki) i
 stworzonego białego obrazka 5x5 (10 kroków). **Wszystkie symulacje wyszły prawidłowo**.
 
