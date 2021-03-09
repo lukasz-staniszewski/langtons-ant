@@ -5,11 +5,11 @@
 <img src="https://user-images.githubusercontent.com/59453698/110209633-c37a6900-7e8d-11eb-9539-5c0467d69758.png" width="50%"></img>
 
 ## <u>SPIS TREŚCI:</u>
-- <b>ROZDZIAŁ I. OPIS PROJEKTU</b>
+- <b>[ROZDZIAŁ I. OPIS PROJEKTU](#section1)</b>
    - WSTĘP
    - ZASADY DZIAŁANIA
    - WYMAGANIA PROJEKTU
-- <b>ROZDZIAŁ II. STRUKTURA PROJEKTU</b>
+- <b>[ROZDZIAŁ II. STRUKTURA PROJEKTU](#section2)</b>
    - OGÓLNY PODZIAŁ
    - SCHEMAT DZIAŁANIA
    - NAJWAŻNIEJSZE UŻYTE BIBLIOTEKI
@@ -18,7 +18,7 @@
    - ALGORYTMIKA
       - FAZA WSTĘPNA
       - FAZA SYMULACJI
-- <b>ROZDZIAŁ III. INSTRUKCJA UŻYTKOWNIKA</b>
+- <b>[ROZDZIAŁ III. INSTRUKCJA UŻYTKOWNIKA](#section3)</b>
    - WSTĘP
    - START KONSOLOWY
    - START GUI
@@ -26,15 +26,15 @@
    - OPCJA ŁADOWANIA PLIKU
    - OPCJA TWORZENIA PLIKU Z PRAWDOPODOBIEŃSTWEM
    - WYNIK SYMULACJI
-- <b>ROZDZIAŁ IV. PRZEPROWADZONE TESTY</b>
+- <b>[ROZDZIAŁ IV. PRZEPROWADZONE TESTY](#section4)</b>
    - TESTY JEDNOSTKOWE
    - WAŻNY PRZYKŁAD
    - TEST SYMULACJI
-- <b>ROZDZIAŁ V. EWENTUALNY ROZWÓJ</b>
-- <b>ROZDZIAŁ VI. WYKORZYSTANE ZASOBY</b>
+- <b>[ROZDZIAŁ V. EWENTUALNY ROZWÓJ](#section5)</b>
+- <b>[ROZDZIAŁ VI. WYKORZYSTANE ZASOBY](#section6)</b>
 
 
-## <b><u>ROZDZIAŁ I. OPIS PROJEKTU</u></b>
+## <b><u>ROZDZIAŁ I. OPIS PROJEKTU</u></b><a name="section1"></a>
 
 ### <i>WSTĘP</i>
 
@@ -66,7 +66,7 @@ Projekt polega na implementacji automatu komórkowego, tzw. Mrówki Langtona.
 2. Wyjściem programu jest zapisana seria obrazów obrazująca wynik 'spaceru' mrówki -
     jeden obraz na każdy ruch. Liczba kroków określona jest przez użytkownika.
 
-## <b><u>ROZDZIAŁ II. STRUKTURA PROJEKTU</u></b>
+## <b><u>ROZDZIAŁ II. STRUKTURA PROJEKTU</u></b><a name="section2"></a>
 
 ### <i>OGÓLNY PODZIAŁ</i>
 
@@ -153,7 +153,7 @@ postaci step_[nr kroku]. Po wykonaniu pętli, następuje koniec programu.
 <div style="font-size: 12px;"> Rys 4 – fragment przykładowego wyglądu folderu Steps po zakończonym
 programie </div>
 
-## <b><u>ROZDZIAŁ III. INSTRUKCJA UŻYTKOWNIKA</u></b>
+## <b><u>ROZDZIAŁ III. INSTRUKCJA UŻYTKOWNIKA</u></b><a name="section3"></a>
 
 ### <i>WSTĘP</i>
 
@@ -232,7 +232,7 @@ atrybut **probability** – wymaga podania **liczby rzeczywistej z zakresu (0, 1
 Po zakończeniu symulacji, należy wejść do folderu **steps**. Własnie tam znajduje się wynik całej
 symulacji w postaci serii obrazków, tak jak pokazane to zostało na rys 4.
 
-## <b><u>ROZDZIAŁ IV. PRZEPROWADZONE TESTY</u></b>
+## <b><u>ROZDZIAŁ IV. PRZEPROWADZONE TESTY</u></b><a name="section4"></a>
 
 ### <i>TESTY JEDNOSTKOWE</i>
 
@@ -302,7 +302,7 @@ następnego kroku).
 Podobne symulacje przeprowadziłem również dla ładowanego obrazka 5x5 (4 kroki) i
 stworzonego białego obrazka 5x5 (10 kroków). **Wszystkie symulacje wyszły prawidłowo**.
 
-## <b>ROZDZIAŁ V. EWENTUALNY ROZWÓJ</b>
+## <b>ROZDZIAŁ V. EWENTUALNY ROZWÓJ</b><a name="section5"></a>
 
 Projekt można by było udoskonalić w możliwość pojawienia się kilku mrówek naraz na
 obrazie. O ile założenie te zostałoby sformułowane już w początkowej fazie projektowania (a tak
@@ -311,6 +311,6 @@ skutku. Na obecnym etapie wdrożone algorytmy stworzone są z przeznaczeniem dla
 jednej mrówki i ewentualna modyfikacja spowodowałaby zmianę struktury większości programu.
 Dlatego też kwestię tą postanowiłem umieścić w tym rozdziale dokumentacji.
 
-## <b>ROZDZIAŁ VI. WYKORZYSTANE ZASOBY</b>
+## <b>ROZDZIAŁ VI. WYKORZYSTANE ZASOBY</b><a name="section6"></a>
 
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
